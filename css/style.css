@@ -1699,7 +1699,7 @@ header {
 
 /*# 14. Gallery*/
 .gallery {
-  padding: 48px 0 0
+  padding: 18px 0 0
 
 }
 
@@ -1876,7 +1876,7 @@ header {
   }
 
   .gallery .owl-buttons {
-    margin: -40px 0 0 0
+    margin: -10px 0 0 0
   }
 
   .owl-carousel:hover .owl-next, .owl-carousel:hover .owl-prev {
