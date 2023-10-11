@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+      body {
+         height: 100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+      .main_box {
+         width: 90%;
+         height: 80vh;
+         display: flex;
+      }
+      .img {
+         flex: 1;
+         transform: skew(10deg);
+         cursor: pointer;
+         margin: 0 0.125em;
+         transition: all .3s;
+         background-position: center;
+         border: 1px solid pink;
+         position: relative;
+      }
+      p {
+         position: absolute;
+         bottom: 0;
+         left: 0;
+         padding: .75em;
+         background-color: rgba(0, 0, 0, 0.6);
+         transform: rotate(-90deg);
+         transform-origin: 0% 0%;
+         transition: all 0.3s;
+      }
+      .img1 {
+         background-image: url(https://media.istockphoto.com/id/1227403347/vector/antique-illustration-botany-dandelion.jpg?s=612x612&w=is&k=20&c=rFabhZaA5u-zcykVOEm0SyuH6-7J_dM_h9PF3Y6nlcU=);
+      }
+      .img2 {
+         background-image: url(https://media.istockphoto.com/id/984339070/vector/tropical-leaf-collection-vector-set-of-hand-drawn-exotic-plants-monstera-fan-palm-banana-leaf.jpg?s=612x612&w=is&k=20&c=GKREZf-Z65RavKTSp6EXzVoIBnE4vFiyoEMEws23U-8=);
+      }
+      .main_box:hover .img {
+         transform: skew(0);
+      }
+      .img:hover {
+         flex: 5;
+      }
+   </style>
+</head>
+<body>
+   <div class="main_box">
+      <div class="img img1">
+      </div>
+      <div class="img img2">
+      </div>
+      <div class="img img1">
+      </div>
+      <div class="img img2">
+      </div>
+   </div>
+</body>
+</html>
