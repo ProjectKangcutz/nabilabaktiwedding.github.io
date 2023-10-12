@@ -528,8 +528,8 @@ header {
 }
 
 .intro_down i {
-  animation: 1.4s ease 0s normal none infinite mouse-down;
-  -webkit-animation: 1.4s ease 0s normal none infinite mouse-down;
+  animation: 0.4s ease 0s normal none infinite mouse-down;
+  -webkit-animation: 0.4s ease 0s normal none infinite mouse-down;
 }
 
 @keyframes mouse-down {
