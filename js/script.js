@@ -98,7 +98,7 @@
       }
     });
 
-    /*Scroll Effect*/
+    /*Scroll Effect
     $('.intro_down, .go').on("click", function (e) {
       var anchor = $(this);
       $('html, body').stop().animate({
@@ -106,7 +106,7 @@
       }, 50000);
       e.preventDefault();
     });
-
+*/
     /*Show/Hide Photo in When&Where Block*/
     $('.photocamera span').on("click", function (e) {
       $(this).parents('section').find('.opacity').toggleClass('fade');
